@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+body{
+  background:#fff;
+  margin-top:100px;
+  text-align:center;
+}
+
+    
+#arsn {
+	text-align:center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size:300px;
+  text-transform:uppercase;
+  color: transparent;
+    background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+  background-size: 1000px 100%;
+  animation: bg 15s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  padding-top: 100px;
+  padding-bottom: 45px;
+
+}
+
+@keyframes bg {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 10000px;
+  }
+}
+
+img { 
+  display: inline-block;
+  align-self: center;
+}
+body {
+  background-color: white;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+p {
+  color: red;
+	text-align: center;	 
+}
+
+.typingEffect{
+  font-family: lato;
+  font-size: 283%;
+  font-weight: 700;
+  width: 100%;
+  color: #424242;
+  white-space:nowrap;
+  overflow:hidden;
+  border-right: 5px solid #424242;
+  animation: type 4s steps(30, end), cursorblink 1s step-end infinite;
+  padding-bottom: 1%;
+  
+}
+
+@keyframes type {
+   from { width: 10%; }
+   to { width:90%; }
+}
+ 
+@keyframes cursorblink{
+  from, to {border-color: transparent}
+  50%{ border-color:#424242}
+} 
+
+.problem{
+	text-align: center;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
