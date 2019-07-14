@@ -5,6 +5,10 @@ body{
   text-align:center;
 }
 
+.github-links{
+  font-size: 30px;
+  padding-bottom: 15px;
+}
 
 #arsn {
 	text-align:center;
@@ -19,7 +23,7 @@ body{
   background-clip: text;
   -webkit-background-clip: text;
   padding-top: 80px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 @keyframes bg {
@@ -42,31 +46,39 @@ p {
   
 }
 
-.github-links{
-  style="font-size:48px;"
+img{
+  align-self: 'right'
 }
 
 #problem h1{
-  padding-top:150px;
+  padding-top:45px;
   font-family: 'Squada One', cursive;
   font-size: 70px;
+  padding-bottom: 20px;
 }
 
 #para{
   font-family: 'Bitter', serif;
   align-self: justify;
   font-size-adjust: 40%;
+  padding-bottom: 30px;
+}
+
+#sub-arsn{
+  padding-bottom: 10px;
 }
 
 #solution h1{
-  padding-top:70px;
+  padding-top:0px;
   font-family: 'Squada One', cursive;
   font-size: 70px;
+  
 }
 
 #solution-para{
   font-family: 'Bitter', serif;\
   font-size: 40%;
+  padding-bottom: 20px;
 }
 .web-bg{
   background-repeat: space;
@@ -74,7 +86,7 @@ p {
 
 .typingEffect{
   font-family: lato;
-  font-size: 45px;
+  font-size: 43px;
   font-weight: 700;
   height:30px;
   width: 100%;
@@ -117,15 +129,15 @@ hr {
   font-family: lato;
   text-align: center;
   font-size: 80px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
-
-
 
 #blink {
   text-align:center;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 100px;
+  font-size: 120px;
   text-transform:uppercase;
   color: transparent;
     background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
@@ -133,8 +145,8 @@ hr {
   animation: bg 15s linear infinite;
   background-clip: text;
   -webkit-background-clip: text;
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 45px;
 }
 
 #SecondSection{
@@ -162,10 +174,10 @@ background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840,
 background-size: 1800% 1800%;
 z-index: -1;
 
--webkit-animation: rainbow 13s ease infinite;
--z-animation: rainbow 13s ease infinite;
--o-animation: rainbow 13s ease infinite;
-  animation: rainbow 13s ease infinite;}
+-webkit-animation: rainbow 11s ease infinite;
+-z-animation: rainbow 11s ease infinite;
+-o-animation: rainbow 11s ease infinite;
+  animation: rainbow 11s ease infinite;}
 
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
