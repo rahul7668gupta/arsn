@@ -29,8 +29,9 @@ Materials:-
 **Api**
 1)Google Vision Api
   >> Image classification , Object Identification etc
- 2) Ada Fruit Api
+2) Ada Fruit Api
   >> Provides proper linkage between NodeMcu(ESP8266) and IFTTT
   
- 
+  **Checkout our Website**
+ https://rahul7668gupta.github.io/arsn/
 
