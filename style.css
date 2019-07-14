@@ -34,35 +34,55 @@ body{
 .navbar{
   position: fixed; 
   top: 0; 
-  width: 100%;
+  width: 100%;  
 }
 p {
   color: #000000;
 	text-align: center;
-  font-size: 30px;
+  
 }
 
-#problem{
+.github-links{
+  style="font-size:48px;"
+}
+
+#problem h1{
   padding-top:150px;
   font-family: 'Squada One', cursive;
-  font-size: 50%;
+  font-size: 70px;
 }
 
 #para{
   font-family: 'Bitter', serif;
+  align-self: justify;
+  font-size-adjust: 40%;
+}
+
+#solution h1{
+  padding-top:70px;
+  font-family: 'Squada One', cursive;
+  font-size: 70px;
+}
+
+#solution-para{
+  font-family: 'Bitter', serif;\
+  font-size: 40%;
+}
+.web-bg{
+  background-repeat: space;
 }
 
 .typingEffect{
   font-family: lato;
-  font-size: 38px;
+  font-size: 45px;
   font-weight: 700;
   height:30px;
-  width: 150%;
+  width: 100%;
   color: #FFFFFF;
   white-space:nowrap;
   overflow:hidden;
   animation: type 4s steps(30, end), blink-caret 1s step-end infinite;
-  padding-bottom: 30%;
+  padding-bottom: 20%;
   padding-top: 40%;
   top: 0;
   z-index: 999;
@@ -97,6 +117,8 @@ hr {
   text-align: center;
   font-size: 80px;
 }
+
+
 
 #blink {
   text-align:center;
