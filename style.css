@@ -52,13 +52,18 @@ p {
   font-size: 30px;
   font-family: 'Lucida Sans Unicode';
 }
+#sub-arsn{
+  color: black;
+  padding-top: 100px;
+
+}
 
 .typingEffect{
   font-family: lato;
   font-size: 283%;
   font-weight: 700;
   width: 100%;
-  color: #424242;
+  color: #FFFFFF;
   white-space:nowrap;
   overflow:hidden;
   border-right: 5px solid #424242;
@@ -118,6 +123,10 @@ hr {
 #FirstSection{
   background-color: #E3DAD8;
 }
+#SecondSection{
+  text-decoration-color: black;
+  font-size: 150px;
+}
 @keyframes bg {
   0% {
     background-position-x: 0;
@@ -127,7 +136,7 @@ hr {
   }
 }
 
-.arsnbg { 
+.arsnbg {
   height: 100%;
   width: 100%;
   left:0;
@@ -158,7 +167,7 @@ background-size: 1800% 1800%;
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
-@keyframes rainbow { 
+@keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
@@ -177,9 +186,9 @@ background-size: 1800% 1800%;
 #ip2 {
     border-radius: 25px;
     border: 2px solid 'black';
-    padding: 20px; 
+    padding: 20px;
     width: 30%;
-    height: 15px;    
+    height: 15px;
 }
 
 .problem{
