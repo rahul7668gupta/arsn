@@ -5,7 +5,7 @@ body{
   text-align:center;
 }
 
-    
+
 #arsn {
 	text-align:center;
   font-family: 'Roboto', sans-serif;
@@ -32,7 +32,7 @@ body{
   }
 }
 
-img { 
+img {
   display: inline-block;
   align-self: center;
 }
@@ -48,8 +48,8 @@ h1 {
 }
 p {
   color: #000000;
-	text-align: center;	
-  font-size: 30px; 
+	text-align: center;
+  font-size: 30px;
   font-family: 'Lucida Sans Unicode';
 }
 
@@ -64,20 +64,20 @@ p {
   border-right: 5px solid #424242;
   animation: type 4s steps(30, end), cursorblink 1s step-end infinite;
   padding-bottom: 1%;
-  
+
 }
 
 @keyframes type {
    from { width: 10%; }
    to { width:90%; }
 }
- 
+
 @keyframes cursorblink{
   from, to {border-color: transparent}
   50%{ border-color:#424242}
-} 
+}
 
-hr { 
+hr {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -101,7 +101,7 @@ hr {
   text-align:center;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 150px;
+  font-size: 130px;
   text-transform:uppercase;
   color: transparent;
     background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
@@ -115,7 +115,12 @@ hr {
 
 
 }
-
+#FirstSection{
+  background-color: #E3DAD8;
+}
+#ThirdSection{
+  background-color: #E3DAD8;
+}
 @keyframes bg {
   0% {
     background-position-x: 0;
@@ -123,23 +128,4 @@ hr {
   100% {
     background-position-x: 10000px;
   }
-}
-
-#solution{
-    font-family: 'Lucida Sans Unicode';
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-#heading{
-      padding-top: 30px;
-    padding-bottom: 5px;
-}
-
-.problem{
-  padding-bottom: 30px;
-}
-
-.para{
-  font-family: 'Lucida Sans Unicode';
 }
