@@ -12,9 +12,9 @@ Sounds quixotic, isn't it but that's the reality . Does it sound vague? Just use
 **Features** :-
 
 >>1)Complete control all your smart home appliances at your fingertips.
->>2)Efficient use of home appliances.
->>3)Get the realtime picture of the person who's outside your door just with simple voice commands.
->>4)Profound analysis of the image in case the person is possessing any suspicious object.
+2)Efficient use of home appliances.
+3)Get the realtime picture of the person who's outside your door just with simple voice commands.
+4)Profound analysis of the image in case the person is possessing any suspicious object.
 
 **Tech Stack**
 
