@@ -86,6 +86,7 @@ p {
   padding-top: 40%;
   top: 0;
   z-index: 999;
+  text-align=center;
 }
 
 @keyframes type {
