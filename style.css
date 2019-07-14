@@ -118,9 +118,6 @@ hr {
 #FirstSection{
   background-color: #E3DAD8;
 }
-#ThirdSection{
-  background-color: #E3DAD8;
-}
 @keyframes bg {
   0% {
     background-position-x: 0;
@@ -165,4 +162,26 @@ background-size: 1800% 1800%;
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
+}
+
+#enterpnoneno{
+  font-size: 17px;
+  font-family: 'Lucida Sans Unicode';
+}
+
+#tryitout{
+  font-size: 25px;
+  font-family: 'Lucida Sans Unicode';
+}
+
+#ip2 {
+    border-radius: 25px;
+    border: 2px solid 'black';
+    padding: 20px; 
+    width: 30%;
+    height: 15px;    
+}
+
+.problem{
+  padding-top:500px;
 }
