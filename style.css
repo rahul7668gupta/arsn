@@ -101,7 +101,7 @@ hr {
   text-align:center;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 130px;
+  font-size: 150px;
   text-transform:uppercase;
   color: transparent;
     background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
@@ -123,4 +123,23 @@ hr {
   100% {
     background-position-x: 10000px;
   }
+}
+
+#solution{
+    font-family: 'Lucida Sans Unicode';
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#heading{
+      padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.problem{
+  padding-bottom: 30px;
+}
+
+.para{
+  font-family: 'Lucida Sans Unicode';
 }
