@@ -15,7 +15,7 @@ body{
   color: transparent;
     background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
   background-size: 1000px 100%;
-  animation: bg linear ;
+  animation: bg 30s linear ;
   background-clip: text;
   -webkit-background-clip: text;
   padding-top: 10%;
