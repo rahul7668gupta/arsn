@@ -19,8 +19,7 @@ body{
   background-clip: text;
   -webkit-background-clip: text;
   padding-top: 10%;
-  padding-bottom: 20px;
-
+  padding-bottom: 10px;
 }
 
 @keyframes bg {
@@ -28,7 +27,7 @@ body{
     background-position-x: 0;
   }
   100% {
-    background-position-x: 10000px;
+    background-position-x: 100%;
   }
 }
 
@@ -52,9 +51,10 @@ p {
   font-size: 30px;
   font-family: 'Lucida Sans Unicode';
 }
+
 #sub-arsn{
   color: black;
-  padding-top: 100px;
+  padding-top: 50px;
 
 }
 
@@ -73,11 +73,11 @@ p {
 }
 
 @keyframes type {
-   from { width: 10%; }
-   to { width:90%; }
+   from { width: 1%; }
+   to { width:100%; }
 }
 
-@keyframes cursorblink{
+@keyframes blink-caret{
   from, to {border-color: transparent}
   50%{ border-color:#424242}
 }
@@ -115,14 +115,9 @@ hr {
   background-clip: text;
   -webkit-background-clip: text;
   padding-top: 100px;
-  padding-bottom: 70px;
-  animation: bg 15s linear infinite;
-
-
+  padding-bottom: 20px;
 }
-#FirstSection{
-  background-color: #E3DAD8;
-}
+
 #SecondSection{
   text-decoration-color: black;
   font-size: 150px;
@@ -192,5 +187,5 @@ background-size: 1800% 1800%;
 }
 
 .problem{
-  padding-top:500px;
+  padding-top:200px;
 }
