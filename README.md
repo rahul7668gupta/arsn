@@ -24,6 +24,7 @@ Materials:-
 >>3)Led , DC Motor , Relay Module
 >>4)Raspberry Pi
 >>5)Usb WebCam
+>>6)Television Screen
 
 **Api**
 1)Google Vision Api
